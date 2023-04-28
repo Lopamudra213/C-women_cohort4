@@ -1,0 +1,10 @@
+#modifying elements in a list change,append,broccoli
+veges=['patotoes','onions','tamatoes','carrot','broccoli']
+print(veges)
+veges[2]="cauliflower" #changing an element of the list
+print(veges)
+veges.append('peas') #add an element at the end
+print(veges)
+veges.insert(1,'leek') #inserting an element to any position
+print(veges)
+veges.insert(-2,'cucumber')
